@@ -26,7 +26,7 @@ public class Exercise1 {
 			contador++;
 			//Convierto el numero que antes era un tipo de dato double, a un tipo de dato Integer
 			numero = (int)num;
-			//Invoco nuevamente al método
+			//Invoco nuevamente al metodo
 			esCuadradoPerfecto(numero);
 		//El metodo seguira llamandose a si mismo hasta que la raiz modulo 1 sea diferente de 0, es decir decimal y el contador sea igual a 0
 		} else if((num % 1 != 0) && contador == 0) {
