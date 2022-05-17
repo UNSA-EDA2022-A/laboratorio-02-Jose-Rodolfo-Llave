@@ -20,7 +20,7 @@ public class Exercise1 {
 		//Se obtiene la raiz cuadrada del numero y lo almaceno en un tipo de dato double.
 		double num = Math.sqrt(numero);
 		//Se veririfica no sea un numero decimal
-		//Establezco una condición, en donde si la raiz modulo 1 es 0, quiere decir que es entero.
+		//Establezco una condicion, en donde si la raiz modulo 1 es 0, quiere decir que es entero.
 		if(num % 1 == 0) {
 			//Aumento el contador en 1
 			contador++;
@@ -37,4 +37,4 @@ public class Exercise1 {
 	static int contador = 0;
 		
 }
-	//MI OSBERVACIÓN: El programa no aplica para 1 y cero, es ahi en donde tengo problemas.
+	//MI OSBERVACION: El programa no aplica para 1 y cero, es ahi en donde tengo problemas.
