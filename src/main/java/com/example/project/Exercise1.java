@@ -11,7 +11,7 @@ public class Exercise1 {
 		while (true) {
 			int n = sc.nextInt();
 			System.out.println(obj.esCuadradoPerfecto(n));
-			contador = 0;
+			
 		}
 	}
 
