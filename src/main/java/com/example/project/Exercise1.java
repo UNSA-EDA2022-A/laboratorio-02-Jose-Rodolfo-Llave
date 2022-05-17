@@ -15,17 +15,16 @@ public class Exercise1 {
 	}
 
 	public boolean esCuadradoPerfecto(int numero) {
-		double num = numero;
-		num = Math.sqrt(num);
-		if((num % 1 != 0) && contador >= 1) {
-			return true;
-		} else if(num % 1 == 0) {
-			numero = (int)num;
+		double num = Math.sqrt(numero);
+		
+		if(num % 1 == 0) {
 			contador++;
+			numero = (int)num;
 			esCuadradoPerfecto(numero);
-		}
-		return false;
-
+		} else if((num % 1 != 0) && contador >= 1) {
+			return false;
+		}	
+		return true;
 	static int contador = 0;
 		
 }
