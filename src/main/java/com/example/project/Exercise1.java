@@ -37,3 +37,4 @@ public class Exercise1 {
 	static int contador = 0;
 		
 }
+	//MI OSBERVACIÓN: El programa no aplica para 1 y cero, es ahi en donde tengo problemas.
