@@ -15,17 +15,6 @@ public class Exercise1 {
 	}
 
 	public boolean esCuadradoPerfecto(int numero) {
-		import java.util.*;
-public class prueba2 {
-	public static void main (String [] args) {
-		Scanner sc = new Scanner(System.in);
-		while (true) {
-			int n = sc.nextInt();
-			System.out.println(esCuadradoPerfecto(n));			
-		}
-	}
-	
-	static boolean esCuadradoPerfecto(int numero) {
 		double num = numero;
 		num = Math.sqrt(num);
 		if((num % 1 != 0) && contador >= 1) {
@@ -36,10 +25,7 @@ public class prueba2 {
 			esCuadradoPerfecto(numero);
 		}
 		return false;
-	}
-	
-	static int contador = 0;
-}
 
-	}
+	static int contador = 0;
+		
 }
