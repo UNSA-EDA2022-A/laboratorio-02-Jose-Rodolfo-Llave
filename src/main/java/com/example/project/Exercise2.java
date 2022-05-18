@@ -28,18 +28,18 @@ public class Exercise2 {
 		return esSubconjuntoSumaExt2(a, a.length - 1,suma);
 	}
 	
-	public boolean esSubconjuntoSumaExt2(int a[],int tamaño, int suma) {
+	public boolean esSubconjuntoSumaExt2(int a[],int tam, int suma) {
 		
 		// Casos base
 		if (suma == 0)
 		return true;
-		if (tamaño == 0)
+		if (tam == 0)
 		return false;
 		/* verificamos si conseguimos la suma por alguna de las siguientes formas:
 		(a) incluyendo el primer elemento
 		(b) excluyendo el primer elemento */
 
-		return esSubconjuntoSumaExt2(a, tamaño -1, suma - a[tamaño])
-		|| esSubconjuntoSumaExt2(a, tamaño - 1, suma );
+		return esSubconjuntoSumaExt2(a, tam -1, suma - a[tam])
+		|| esSubconjuntoSumaExt2(a, tam - 1, suma );
 	}
 }
